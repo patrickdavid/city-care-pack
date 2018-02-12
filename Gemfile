@@ -39,6 +39,10 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'sprockets-rails', :require => 'sprockets/railtie'
+  gem 'bootstrap', '~> 4.0.0'
+  gem 'responders'
+  gem 'react-rails'
 end
 
 group :development do
