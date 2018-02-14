@@ -17,10 +17,10 @@ var AllItems = React.createClass({
         </div>
       )
     });
-
-    return(
-      <div>
-        {items}
-      </div>
-    )
+    // 
+    // return(
+    //   <div>
+    //     {items}
+    //   </div>
+    // )
 }
